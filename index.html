@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Backroads || Tour Company</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="./fontawesome-free-5.14.0-web/css/all.min.css" />
+  <!-- styles css -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header id="home">
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="nav-center"> <!-- big screen container -->
+        <!-- NAV HEADER -->
+        <div class="nav-header"> <!-- small screen container -->
+          <img src="./images/logo.svg" class="nav-logo" alt="BackRoads Logo">
+          <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Navigation dropdown menu">
+            <i class="fas fa-bars nav-icon"></i>
+          </button>
+        </div>
+        <!-- END NAV HEADER -->
+        <!-- NAV LINKS -->
+        <nav class="nav-links" id="nav-links">
+          <a href="#home" class="nav-link scroll-link">home</a>
+          <a href="#about" class="nav-link scroll-link">about</a>
+          <a href="#services" class="nav-link scroll-link">services</a>
+          <a href="#featured-tours" class="nav-link scroll-link">featured tours</a>
+          <a href="#gallery" class="nav-link scroll-link">gallery</a>
+        </nav>
+        <!-- NAV SOCIAL LINKS -->
+        <div class="nav-social-icons">
+          <a href="https://wwww.facebook.com" target="_blank" aria-label="Backroad's Facebook page"><i class="fab fa-facebook nav-social-icon"></i></a>
+          <a href="https://twitter.com" target="_blank" aria-label="Backroad's Twitter page"><i class="fab fa-twitter nav-social-icon"></i></a>
+          <a href="https://wwww.squarespace.com" target="_blank" aria-label="Backroad's Squarespace page"><i class="fab fa-squarespace nav-social-icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- END NAVBAR -->
+
+    <!-- BANNER  -->
+    <div class="banner-flex">
+      <div class="banner-content">
+        <h1>continue exploring</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+          consectetur qui odit et ipsa sapiente!
+        </p>
+        <!-- scroll-link class for JavaScript smooth scrolling -->
+        <a href="#featured-tours" class="btn banner-btn scroll-link">explore tours</a>
+      </div>
+    </div>
+    <!-- END BANNER  -->
+  </header>
+  <!-- END HEADER -->
+
+
+
+
+  <!-- ABOUT SECTION -->
+  <main class="section" id="about">
+    <!-- TITLE -->
+    <header class="section-title">
+      <h2>about <span aria-hidden="true">us</span></h2>
+    </header>
+    <!-- END TITLE -->
+    <!-- ABOUT MAIN -->
+    <div class="section-center about-flex">
+      <!-- ABOUT IMG -->
+      <div class="about-img-container">
+        <img src="./images/about.jpeg" class="about-img"
+          alt="Waves breaking over a sandy beach with palm trees and a cloudy blue sky.">
+      </div>
+      <!-- END ABOUT IMG -->
+      <!-- ABOUT INFO -->
+      <article class="about-info">
+        <h3>explore the difference</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis doloremque quidem labore error quod
+          ducimus provident adipisci harum id!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore sunt vel esse magnam corrupti quo
+          in optio illo est!</p>
+        <a href="#" class="btn">read more</a>
+      </article>
+      <!-- END ABOUT INFO -->
+    </div>
+    <!-- END ABOUT MAIN -->
+  </main>
+  <!-- END ABOUT SECTION -->
+
+
+
+
+  <!-- SERVICES SECTION -->
+  <section class="section" id="services">
+    <!-- TITLE -->
+    <header class="section-title">
+      <h2>our <span>services</span></h2>
+    </header>
+    <!-- END TITLE -->
+    <!-- SERVICES MAIN -->
+    <div class="section-center services-flex">
+      <!-- SERVICE 1 -->
+      <section class="service-flex">
+        <span class="service-icon">
+          <i class="fas fa-wallet fa-fw"></i>
+        </span>
+        <div class="service-info">
+          <h4>saving money</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, est.</p>
+        </div>
+      </section>
+      <!-- END SERVICE 1 -->
+      <!-- SERVICE 2 -->
+      <section class="service-flex">
+        <span class="service-icon">
+          <i class="fas fa-tree fa-fw"></i>
+        </span>
+        <div class="service-info">
+          <h4>endless hiking</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, delectus?</p>
+        </div>
+      </section>
+      <!-- END SERVICE 2 -->
+      <!-- SERVICE 3 -->
+      <section class="service-flex">
+        <span class="service-icon">
+          <i class="fas fa-socks fa-fw"></i>
+        </span>
+        <div class="service-info">
+          <h4>amazing comfort</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, adipisci?</p>
+        </div>
+      </section>
+      <!-- END SERVICE 3 -->
+    </div>
+    <!-- END SERVICES MAIN -->
+  </section>
+  <!-- END SERVICES SECTION -->
+
+
+
+
+  <!-- FEATURED TOURS SECTION -->
+  <section class="section" id="featured-tours">
+    <!-- TITLE -->
+    <header class="section-title">
+      <h2>featured <span>tours</span></h2>
+    </header>
+    <!-- END TITLE -->
+    <!-- FEATURED TOUR CARDS -->
+    <div class="section-center tours-container">
+      <!-- TOUR CARD 1 -->
+      <article class="tour-card-container">
+        <figure>
+          <div class="tour-img-container">
+            <img src="./images/tour-1.jpeg" class="tour-img" alt="A small village nestled in the grassy mountains of Tibet.">
+            <p class="tour-date">August 26th, 2020</p>
+          </div>
+          <!-- TOUR INFO -->
+          <figcaption class="tour-info">
+            <h4>tibet adventure</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo dignissimos facilis, consequatur voluptates mollitia corporis qui hic consectetur rem nesciunt.</p>
+            <footer class="tour-footer-flex">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  china
+                </span>
+              </p>
+              <p>6 Days</p>
+              <p>from $2100</p>
+            </footer>
+          </figcaption>
+        </figure>
+      </article>
+      <!-- END TOUR CARD 1 -->
+      <!-- TOUR CARD 2 -->
+      <article class="tour-card-container">
+        <figure>
+          <div class="tour-img-container">
+            <img src="./images/tour-2.jpeg" class="tour-img" alt="A young woman sitting in the middle of a road in Indonesia surrounded by grassy landscape.">
+            <p class="tour-date">october 1st, 2020</p>
+          </div>
+          <!-- TOUR INFO -->
+          <figcaption class="tour-info">
+            <h4>best of java</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ipsam eaque ullam recusandae sequi, quam excepturi cum accusamus animi nulla.</p>
+            <footer class="tour-footer-flex">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  indonesia
+                </span>
+              </p>
+              <p>11 days</p>
+              <p>from $1400</p>
+            </footer>
+          </figcaption>
+        </figure>
+      </article>
+      <!-- END TOUR CARD 2 -->
+      <!-- TOUR CARD 3 -->
+      <article class="tour-card-container">
+        <figure>
+          <div class="tour-img-container">
+            <img src="./images/tour-3.jpeg" class="tour-img"
+              alt="Night-time aerial view of the illuminated skyscraper cityscape of Hong Kong.">
+            <p class="tour-date">september 15th, 2020</p>
+          </div>
+          <!-- TOUR INFO -->
+          <figcaption class="tour-info">
+            <h4>explore hong kong</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus fugit debitis repellendus sint necessitatibus. Aut error excepturi consectetur quas!</p>
+            <footer class="tour-footer-flex">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  hong kong
+                </span>
+              </p>
+              <p>8 days</p>
+              <p>from $5000</p>
+            </footer>
+          </figcaption>
+        </figure>
+      </article>
+      <!-- END TOUR CARD 3 -->
+      <!-- TOUR CARD 4 -->
+      <article class="tour-card-container">
+        <figure>
+          <div class="tour-img-container">
+            <img src="./images/tour-4.jpeg" class="tour-img"
+              alt="An elephant in the bushlands of Kenya, Africa, using its trunk to cover itself in red dirt.">
+            <p class="tour-date">december 5th, 2020</p>
+          </div>
+          <!-- TOUR INFO -->
+          <figcaption class="tour-info">
+            <h4>kenya highlights</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus laboriosam libero provident officiis voluptatibus rerum aperiam sunt sint ea dolorum.</p>
+            <footer class="tour-footer-flex">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  kenya
+                </span>
+              </p>
+              <p>20 days</p>
+              <p>from $3300</p>
+            </footer>
+          </figcaption>
+        </figure>
+      </article>
+      <!-- END TOUR CARD 4 -->
+    </div>
+    <!-- END FEATURED TOUR CARDS -->
+    <!-- TOURS BTN -->
+    <div class="tours-btn-container">
+      <a href="#" class="btn tours-btn">all tours</a>
+    </div>
+    <!-- END TOURS BTN -->
+  </section>
+  <!-- END FEATURED TOURS -->
+
+
+
+
+  <!-- CONTACT -->
+  <div class="section" id="contact">
+    <section class="section-center contact-flex">
+      <div class="contact-text">
+        <h3>want the latest tour info and updates?</h3>
+        <p>Sign up for our newsletter and stay up to date</p>
+      </div>
+      <form class="contact-form">
+        <label for="contact-email" class="contact-label">your email:</label>
+        <input type="email" name="email" id="contact-email" class="contact-email">
+        <button type="submit" class="contact-btn">Submit</button>
+      </form>
+    </section>
+  </div>
+  <!-- END CONTACT -->
+
+
+
+
+  <!-- GALLERY  -->
+  <div id="gallery" class="gallery-flex">
+    <!-- SINGLE IMAGE -->
+    <div class="gallery-img-container">
+      <img src="./images/tour-1.jpeg" class="gallery-img" alt="A small village nestled in the grassy mountains of Tibet.">
+      <a href="#" class="gallery-img-icon" aria-label="enlarge image"><i class="fas fa-search"></i></a>
+    </div>
+    <!-- SINGLE IMAGE -->
+    <div class="gallery-img-container">
+      <img src="./images/tour-2.jpeg" class="gallery-img" alt="A young woman sitting in the middle of a road in Indonesia surrounded by grassy landscape.">
+      <a href="#" class="gallery-img-icon" aria-label="enlarge image"><i class="fas fa-search"></i></a>
+    </div>
+    <!-- SINGLE IMAGE -->
+    <div class="gallery-img-container">
+      <img src="./images/tour-3.jpeg" class="gallery-img" alt="Night-time aerial view of the illuminated skyscraper cityscape of Hong Kong.">
+      <a href="#" class="gallery-img-icon" aria-label="enlarge image"><i class="fas fa-search"></i></a>
+    </div>
+    <!-- SINGLE IMAGE -->
+    <div class="gallery-img-container">
+      <img src="./images/tour-4.jpeg" class="gallery-img" alt="An elephant in the bushlands of Kenya, Africa, using its trunk to cover itself in red dirt.">
+      <a href="#" class="gallery-img-icon" aria-label="enlarge image"><i class="fas fa-search"></i></a>
+    </div>
+    <!-- SINGLE IMAGE -->
+    <div class="gallery-img-container">
+      <img src="./images/tour-5.jpeg" class="gallery-img" alt="Two zebras in the grassy plains of Africa nestling each other.">
+      <a href="#" class="gallery-img-icon" aria-label="enlarge image"><i class="fas fa-search"></i></a>
+    </div>
+    <!-- SINGLE IMAGE -->
+    <div class="gallery-img-container">
+      <img src="./images/tour-6.jpeg" class="gallery-img" alt="Full view of the Taj Mahal in India.">
+      <a href="#" class="gallery-img-icon" aria-label="enlarge image"><i class="fas fa-search"></i></a>
+    </div>
+    <!-- SINGLE IMAGE -->
+    <div class="gallery-img-container">
+      <img src="./images/tour-7.jpeg" class="gallery-img" alt="The Louvre Pyramid in Paris illuminated at night and reflecting off of wet concrete.">
+      <a href="#" class="gallery-img-icon" aria-label="enlarge image"><i class="fas fa-search"></i></a>
+    </div>
+    <!-- SINGLE IMAGE -->
+    <div class="gallery-img-container">
+      <img src="./images/tour-8.jpeg" class="gallery-img" alt="Wide-angle view of the London Bridge at night.">
+      <a href="#" class="gallery-img-icon" aria-label="enlarge image"><i class="fas fa-search"></i></a>
+    </div>
+  </div>
+  <!-- END GALLERY  -->
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="section footer">
+    <!-- FOOTER NAV LINKS -->
+    <div class="footer-nav-flex">
+      <a href="#home" class="footer-nav-link scroll-link">home</a>
+      <a href="#about" class="footer-nav-link scroll-link">about</a>
+      <a href="#services" class="footer-nav-link scroll-link">services</a>
+      <a href="#featured-tours" class="footer-nav-link scroll-link">featured tours</a>
+      <a href="#gallery" class="footer-nav-link scroll-link">gallery</a>
+    </div>
+    <!-- END FOOTER NAV LINKS -->
+    <!-- FOOTER SOCIAL LINKS -->
+    <div class="footer-social-flex">
+      <a href="https://wwww.facebook.com" target="_blank" aria-label="Backroad's Facebook page"><i class="fab fa-facebook footer-social-icon"></i></a>
+      <a href="https://twitter.com" target="_blank" aria-label="Backroad's Twitter page"><i class="fab fa-twitter footer-social-icon"></i></a>
+      <a href="https://squarespace.com" target="_blank" aria-label="Backroad's Squarespace page"><i class="fab fa-squarespace footer-social-icon"></i></a>
+    </div>
+    <!-- END FOOTER SOCIAL LINKS -->
+    <!-- COPYRIGHT -->
+    <div class="copyright-section">
+      <p>copyright <span aria-hidden="true">&copy;</span> backroads travel tours company <span id="date"></span> all rights reserved</p>
+    </div>
+    <!-- END COPYRIGHT -->
+  </footer>
+  <!-- END FOOTER -->
+
+  <!-- JAVASCRIPT -->
+  <script src="./js/app.js"></script>
+</body>
+</html>
