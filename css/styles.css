@@ -236,6 +236,16 @@ p {
   height: 0; /* remove the height of the div */
   overflow: hidden; /* hide content not within the div */
 }
+@-webkit-keyframes show-links-animation {
+  0% {
+    height: 0;
+    overflow: hidden;
+  }
+  100% {
+    visibility: visible;
+    height: 280px;
+  }
+}
 @keyframes show-links-animation {
   0% {
     height: 0;
@@ -247,10 +257,8 @@ p {
   }
 }
 .show-links {
-  animation-name: show-links-animation;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
+  -webkit-animation: 0.3s linear forwards show-links-animation;
+          animation: 0.3s linear forwards show-links-animation;
 }
 
 
@@ -384,7 +392,8 @@ p {
 .about-img {
   margin: 0 auto;
   max-height: 25rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* RESPONSIVE VALUES */
@@ -502,7 +511,8 @@ p {
 }
 .tour-img {
   height: 15rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .tour-info {
   padding: 1.25rem 1.5rem;
@@ -672,7 +682,8 @@ p {
 .gallery-img {
   transition: var(--transition);
   height: 17rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .gallery-img:hover {
   opacity: 0.6;
